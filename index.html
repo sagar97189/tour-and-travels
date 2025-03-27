@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tours</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script type="module" src="js/bootstrap.min.js"></script>
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-6 col-lg-6 d-flex align-items-center">
+                <div class="d-flex align-items-center me-3">
+                    <i class="fas fa-map-marker-alt me-2"></i>
+                    <span>45 New Eskaton Road, Austria</span>
+                </div>
+                <div class="bg-primary rounded-circle" style="width: 8px; height: 8px;"></div>
+                <div class="d-flex align-items-center ms-3">
+                    <i class="fas fa-clock me-2"></i>
+                    <span>Sun to Friday: 8.00 am - 7.00 pm, Austria</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-6 d-flex justify-content-end align-items-center">
+                <div class="dropdown me-3">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                </div>
+                <span class="me-3">Faq</span>
+                <span class="me-3">Support</span>
+                <div class="bg-primary rounded-circle" style="width: 8px; height: 8px;"></div>
+                <div class="dropdown ms-3">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="signInDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sign in/ Register
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="signInDropdown">
+                        <li><a class="dropdown-item" href="#">Sign in</a></li>
+                        <li><a class="dropdown-item" href="#">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+    
+     
+<!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item don active">
+                <img src="images/paul-pastourmatzis-km74CLco7qs-unsplash.jpg" alt="" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="h-container animate__animated animate__bounceInDown wow">
+                        <h2 class="hero-text text-3xl md:text-4xl lg:text-5xl">Get unforgettable pleasure with us</h2>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mt-3">Let's make your best trip with us</h1>
+                    </div>
+                    <div class="d-flex exp-button">
+                        <a class="btn btn-primary btn-lg me-3 animate__animated animate__backInRight wow" href="#">Explore Tours <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a class="btn btn-light btn-lg animate__animated animate__backInRight wow" href="#">Our Services <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item don">
+                <img src="images/natalya-zaritskaya-SIOdjcYotms-unsplash.jpg" alt="" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="h-container animate__animated animate__bounceInDown wow">
+                        <h2 class="hero-text text-3xl md:text-4xl lg:text-5xl mb-4">Discover new places</h2>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">Adventure awaits</h1>
+                    </div>
+                    <div class="d-flex exp-button">
+                        <a class="btn btn-primary btn-lg me-3 animate__animated animate__backInRight wow" href="#">Explore Tours <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a class="btn btn-light btn-lg animate__animated animate__backInRight wow" href="#">Our Services <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item don">
+                <img src="images/julian-timmerman-Fn27DlI8bZ8-unsplash.jpg" alt="" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="h-container animate__animated animate__bounceInDown wow">
+                        <h2 class="hero-text text-3xl md:text-4xl lg:text-5xl mb-4">Experience the beauty</h2>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">Travel with us</h1>
+                    </div>
+                    <div class="d-flex exp-button">
+                        <a class="btn btn-primary btn-lg me-3 animate__animated animate__backInRight wow" href="#">Explore Tours <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a class="btn btn-light btn-lg animate__animated animate__backInRight wow" href="#">Our Services <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- float div -->
+    <div class="d-flex justify-content-center align-items-center  position-absolute bg-light rounded-pill float">
+        <div class="bg-white rounded-pill shadow-sm p-3 d-flex align-items-center">
+            <div class="d-flex align-items-center me-3">
+                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                <span class="text-muted">Destination</span>
+                <i class="fas fa-chevron-down text-muted ms-2"></i>
+            </div>
+            <div class="vr mx-3"></div>
+            <div class="d-flex align-items-center me-3">
+                <i class="fas fa-bicycle text-primary me-2"></i>
+                <span class="text-muted">Activity</span>
+                <i class="fas fa-chevron-down text-muted ms-2"></i>
+            </div>
+            <div class="vr mx-3"></div>
+            <div class="d-flex align-items-center me-3">
+                <i class="fas fa-clock text-primary me-2"></i>
+                <span class="text-muted">0 Days - 6 Days</span>
+                <i class="fas fa-chevron-down text-muted ms-2"></i>
+            </div>
+            <div class="vr mx-3"></div>
+            <div class="d-flex align-items-center me-3">
+                <i class="fas fa-dollar-sign text-primary me-2"></i>
+                <span class="text-muted">$200 - $580</span>
+                <i class="fas fa-chevron-down text-muted ms-2"></i>
+            </div>
+            <div class="vr mx-3"></div>
+            <button class="btn btn-primary rounded-pill px-4">Search</button>
+        </div>
+    </div>
+     <!--next  -->
+     <h1 class="cursive text-center fs-3 upper">Wonderful places for you</h1>
+     <h1 class="display-5 fw-bold text-center">Tour Categories</h1>
+     <div class="container parda">
+        <div id="categoryCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#categoryCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#categoryCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/ronin-kscXY70NhMM-unsplash.jpg" alt="Aerial view of a seaplane flying over a turquoise ocean" class="atm">
+                                <h2 class="h5 mt-3">Airbirds</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <div class="">
+                                    <img src="images/pyvovarova_yevheniia8-zYB5sAxoDs4-unsplash.jpg" alt="Underwater view of colorful coral reef with fish" class="atm">
+                                </div>
+                                <h2 class="h5 mt-3">Wildlife</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/neom-RqfFauPXJx0-unsplash.jpg" alt="Person walking on sand dunes" class="atm">
+                                <h2 class="h5 mt-3">Walking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/alonso-reyes-YYSKPYHOq4E-unsplash.jpg" alt="Cruise ship sailing on the ocean" class="atm">
+                                <h2 class="h5 mt-3">Cruises</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg" alt="Two people hiking in snowy mountains" class="atm">
+                                <h2 class="h5 mt-3">Hiking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/sebastien-goldberg-BKLHxgbYFDI-unsplash.jpg" alt="Two people hiking in snowy mountains" class="atm">
+                                <h2 class="h5 mt-3">Hiking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/ronin-kscXY70NhMM-unsplash.jpg" alt="Aerial view of a seaplane flying over a turquoise ocean" class="atm">
+                                <h2 class="h5 mt-3">Airbirds</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/pyvovarova_yevheniia8-zYB5sAxoDs4-unsplash.jpg" alt="Underwater view of colorful coral reef with fish" class="atm">
+                                <h2 class="h5 mt-3">Wildlife</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/neom-RqfFauPXJx0-unsplash.jpg" alt="Person walking on sand dunes" class="atm">
+                                <h2 class="h5 mt-3">Walking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="images/alonso-reyes-YYSKPYHOq4E-unsplash.jpg" alt="Cruise ship sailing on the ocean" class="atm">
+                                <h2 class="h5 mt-3">Cruises</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="https://storage.googleapis.com/a1aa/image/OjkToMQj5iFMOpZZ1LPL8fd_oYhhfQYJBTkuD-I_nsg.jpg" alt="Two people hiking in snowy mountains" class="atm">
+                                <h2 class="h5 mt-3">Hiking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+                            <div class="category-card">
+                                <img src="https://storage.googleapis.com/a1aa/image/OjkToMQj5iFMOpZZ1LPL8fd_oYhhfQYJBTkuD-I_nsg.jpg" alt="Two people hiking in snowy mountains" class="atm">
+                                <h2 class="h5 mt-3">Hiking</h2>
+                                <p class="text-muted">See More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#categoryCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark mb-5 " aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#categoryCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark mb-5" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- popular destination -->
+    <h1 class="cursive text-center fs-1 mt-5">Top Destinations</h1>
+    <h1 class="display-5 fw-bold text-center mb-5">Popular Destinations</h1>
+    <div class="container cage">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+      <div class="cards">
+        <label class="tash" for="item-1" id="song-1">
+          <img src="images/anders-wideskott-_QnPkc4C6E4-unsplash.jpg" alt="song" class="photu animate__animated animate__fadeIn animate__slower wow">
+        </label>
+        <label class="tash" for="item-2" id="song-2">
+          <img src="images/paul-pastourmatzis-km74CLco7qs-unsplash.jpg" alt="song" class="photu animate__animated animate__fadeIn animate__slower wow"">
+        </label>
+        <label class="tash" for="item-3" id="song-3">
+          <img src="images/garrett-parker-DlkF4-dbCOU-unsplash.jpg" alt="song" class="photu animate__animated animate__fadeIn animate__slower wow"">
+        </label>
+      </div>
+    </div>    
+    <!-- next -->
+<div class="row upper">
+<div class="col-sm-2 col-md-2 col-lg-2">
+    <div class="overflow-hidden w-100 ">
+        <img alt="A placeholder image with dimensions 600x400" class="animate-slide"  src="images/erasebg-transformed.webp">
+        <img alt="A placeholder image with dimensions 600x400" class="animate-slide"  src="images/erasebg-transformed.webp">
+    </div>
+</div>
+<div class="col-sm-8 col-md-8 col-lg-8">
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <img src="images/about_1_1.jpg" alt="" class="img-fluid img-1 animate__animated animate__fadeIn wow">
+    </div>
+    <div class="col-sm-6">
+        <img src="images/about_1_2.webp" alt="" class="img-fluid img-2 animate__animated animate__fadeIn wow">
+        <img src="images/about_1_3.webp" alt="" class="img-fluid img-3 animate__animated animate__fadeIn wow">
+    </div>
+</div>
+    </div>
+<div class="col-sm-6 col-md-6 col-lg-6">
+        <h1 class="header-title display-4 animate__animated animate__bounceInDown animate__slower wow">Let's Go Together</h1>
+    <h1 class="display-5 animate__animated animate__backInRight animate__slower wow">Plan Your Trip With us</h1>   
+    <p class="animate__animated animate__backInUp animate__slower wow">There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don’t look even slightly</p>
+    <div class="ms-3">
+        <div class="mt-5">
+            <div class="d-flex align-items-start mb-4">
+                <div class="icon-circle">
+                    <i class="fas fa-route fa-2x"></i>
+                </div>
+                <div class="ms-3">
+                    <h3 class="main-title h4">Exclusive Trip</h3>
+                    <p class="text-muted me-5">There are many variations of passages of available but the majority.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start">
+                <div class="icon-circle">
+                    <i class="fas fa-user-tie fa-2x"></i>
+                </div>
+                <div class="ms-3">
+                    <h3 class="main-title h4">Professional Guide</h3>
+                    <p class="text-muted me-5">There are many variations of passages of available but the majority.</p>
+                </div>
+            </div>
+            <button class="btn btn-custom">
+            sign up
+            </button>
+        </div>    
+    </div>
+</div>
+</div>
+</div>
+<div class="col-sm-2 col-lg-2 col-md-2">
+    <div class="overflow-hidden w-100 animation">
+        <img alt="A placeholder image with dimensions 600x400" class="animate-slide img-fluid" height="400" src="images/pngtree-hand-drawn-travel-boy-png-material-png-image_4385783-removebg-preview.png" width="600"/>
+    </div>     
+</div>
+</div>
+<!-- next -->
+<div class="text-center p-5 bg-opacity-75">
+    <h2 class="text-4xl font-great-vibes text-gray-800 mb-2">Best Recommended Places</h2>
+    <h1 class="text-5xl font-bold text-gray-800 mb-4">Popular Destination we offer for all</h1>
+    <p class="text-lg text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<section class="conjust">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <a class="btn btn-primary mb-3 mr-1 float-start" 
+                   href="#carouselExampleIndicators2"
+                   role="button"
+                    data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 text-right">
+                <a class="btn btn-primary mb-3"
+                   href="#carouselExampleIndicators2"
+                   role="button"
+                   data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="carouselExampleIndicators2" 
+                     class="carousel slide"
+                     data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 col-sm-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011929/glasses-1052010_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                              Special title treatment</h4>
+                                            <p class="card-text">With supporting text
+                                                                   below as a natural lead-in</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011929/glasses-1052010_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title
+                                                                     treatment</h4>
+                                            <p class="card-text">With supporting 
+                                                                   text below as a natural
+                                                                   lead-in to additional 
+                                                                   content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011929/glasses-1052010_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below
+                                                                   as a natural lead-in to
+                                                                 additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011854/reading-925589_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below 
+                                                                  as a natural lead-in to
+                                                                additional content.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240122182422/images1.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below 
+                                                                   as a natural lead-in to
+                                                                    additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011854/reading-925589_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below 
+                                                                  as a natural lead-in to
+                                                                   additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011815/sutterlin-1362879_640-(1).jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below 
+                                                                  as a natural lead-in to
+                                                                additional content.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011929/glasses-1052010_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below
+                                                                   as a natural lead-in to 
+                                                                    additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid animate__animated animate__fadeIn animate__slower wow" 
+                                             alt="100%x280"
+                                            src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240110011929/glasses-1052010_640.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below 
+                                                                   as a natural lead-in to
+                                                                 additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript"
+        src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<!--  -->
+<h2 class="display-4 cursive text-center upper">make your tour more pleasure</h2>
+<h1 class="display-4 text-center fw-bold">Recent Gallery</h1>
+<div class="row mt-5">
+<div class="col-sm-2 col-md-2 col-lg-2">
+</div>
+<div class="col-sm-8 col-md-8 col-lg-8">
+    <div class="row">
+<div class="col-sm-2 container1">
+<img src="images/gallery_1_1.jpg" alt="" class="img-fluid gal1 animate__animated animate__fadeIn wow">
+</div>
+<div class="col-sm-8 col-md-8 col-lg-8">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+    <div class="container1">
+        <img src="images/gallery_1_2.jpg" alt="" class="img-fluid edge animate__animated animate__fadeIn wow"> 
+    </div>
+<div class="container1">
+    <img src="images/gallery_1_3.webp" alt="" class="img-fluid edge animate__animated animate__fadeIn wow">
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-lg-4 container1">
+<img src="images/gallery_1_4.webp" alt="" class="img-fluid edge animate__animated animate__fadeIn wow">
+</div>
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="container1">
+        <img src="images/gallery_1_5.webp" alt="" class="img-fluid edge animate__animated animate__fadeIn wow">
+    </div>
+    <div class="container1">
+        <img src="images/gallery_1_6.webp" alt="" class="img-fluid edge animate__animated animate__fadeIn wow">
+    </div>
+</div>
+</div>
+</div>   
+<div class="col-sm-2 col-md-2 col-lg-2 container1">
+<img src="images/gallery_1_7.webp" alt="" class="img-fluid gal2">
+</div>
+    </div>
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+</div>
+</div>
+<!--  -->
+<h1 class="display-4 text-center cursive mt-5">Our Tour Guides</h1>
+<div class="void" id="void">
+	<div class="crop">
+	<ul id="card-list" style="--count: 6;">
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name"><img src="images/guide1.webp" alt="" class="round">
+            Jacob Jones</span><h4 class="text-center text-muted">Tourist Guide</h4><span>
+                <div class="row mt-1">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa-brands fa-facebook-f fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-youtube size"></i>
+                        </a>
+                    </div>
+                    </div>
+        </span></a></div></li>
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name">
+            <img src="images/guide6.jpg" alt="" class="round">
+            Janne Copper</span><h4 class="text-center text-muted">Tourist Guide</h4>
+            <span>
+<div class="row mt-1">
+<div class="col-sm-3 col-md-3 col-lg-3">
+    <a href="#" class="">
+        <i class="fa-brands fa-facebook-f fs-5 size"></i>
+    </a>
+</div>
+<div class="col-sm-3 col-md-3 col-lg-3">
+    <a href="#" class="">
+        <i class="fa-brands fa-twitter fs-5 size"></i>
+    </a>
+</div>
+<div class="col-sm-3 col-md-3 col-lg-3">
+    <a href="#" class="">
+        <i class="fa-brands fa-instagram fs-5 size"></i>
+    </a>
+</div>
+<div class="col-sm-3 col-md-3 col-lg-3">
+    <a href="#" class="">
+        <i class="fa-brands fa-youtube size"></i>
+    </a>
+</div>
+</div>
+            </span></a></div></li>
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name"><img src="images/guide2.webp" alt="" class="round">
+            Guy Hawkins</span>
+            <h4 class="text-center text-muted">Tourist Guide</h4><span></span><span>
+                <div class="row mt-1">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-facebook-f fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram fs-5 size"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-youtube size"></i>
+                        </a>
+                    </div>
+                    </div>
+            </a></div></li>
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name"><img src="images/guide3.webp" alt="" class="round">
+            Jenny Wilson</span><h4 class="text-center text-muted">Tourist Guide</h4><span></span>
+            <div class="row mt-1">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-facebook-f fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-twitter fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-instagram fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-youtube size"></i>
+                    </a>
+                </div>
+                </div><span></a></div></li>
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name"><img src="images/guide4.webp" alt="" class="round">
+            Erica Wheeler</span><h4 class="text-center text-muted">Tourist Guide</h4>
+            <div class="row mt-1">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-facebook-f fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-twitter fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-instagram fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-youtube size"></i>
+                    </a>
+                </div>
+                </div><span></a></div></li>
+		<li class="lattu"><div class="card rot"><a href=""><span class="model-name"><img src="images/guide5.webp" alt="" class="round">
+            Gretel-ACTGAN</span> <h4 class="text-center text-muted">Tourist Guide</h4>
+            <div class="row mt-1">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-facebook-f fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-twitter fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-instagram fs-5 size"></i>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="">
+                        <i class="fa-brands fa-youtube size"></i>
+                    </a>
+                </div>
+                </div><span></a></div></li>
+	</ul>
+<div class="last-circle"></div>
+<div class="second-circle"></div>
+</div>
+<div class="mask"></div>
+	<div class="center-circle">
+<h1 class="text-center display-5 mt-5 fw-bold">TOUR GUIDES</h1>
+    </div>
+ </div>     
+<!--  -->
+<body class="bg-white">
+    <section class="text-center py-5">
+        <h2 class="text-muted display-5 cursive">Testimonial</h2>
+        <h1 class="display-5 fw-bold text-dark mt-2">What Client Say About us</h1>
+    </section>
+    <section class="container">
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide1.webp" alt="Portrait of Angelina Rose">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">Angelina Rose</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“Solar panels adorn the roof, harnessing renewable energy to power the home and even feed excess electricity back into the grid. High-performance insulation and triple-glazed”</p>
+                            <div class="score">99</div>
+                        </div>
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide3.webp" alt="Portrait of Andrew Simon">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">Andrew Simon</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“A home that perfectly blends sustainability with luxury until discovered Ecoland Residence. The moment I stepped community, I knew it was where I wanted to live.”</p>
+                            <div class="score">99</div>
+                        </div>
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide4.webp" alt="Portrait of Maria Doe">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">Maria Doe</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“The home boasts sleek, contemporary architecture with clean lines and expansive windows, allowing natural light to flood the interiors It incorporates passive design principles”</p>
+                            <div class="score">99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide5.webp" alt="Portrait of John Doe">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">John Doe</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“The home is designed with energy efficiency in mind, featuring solar panels, high-performance insulation, and triple-glazed windows.”</p>
+                            <div class="score">99</div>
+                        </div>
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide6.jpg" alt="Portrait of Jane Smith">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">Jane Smith</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“The community is designed to promote sustainable living, with features like community gardens, rainwater harvesting, and energy-efficient homes.”</p>
+                            <div class="score">99</div>
+                        </div>
+                        <div class="testimonial-card mx-2">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="images/guide2.webp" alt="Portrait of Michael Johnson">
+                                <div>
+                                    <h5 class="font-weight-bold text-dark mb-0">Michael Johnson</h5>
+                                    <p class="text-muted mb-0">Traveller</p>
+                                </div>
+                                <div class="rating ml-auto">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-dark quote">“The homes are designed to be energy-efficient, with features like solar panels, high-performance insulation, and triple-glazed windows.”</p>
+                            <div class="score">99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev icon-margin" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next icon-margin" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!--  -->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="bg-blue-50 sky">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center mb-8">
+                <div class="Restaurant">
+                    <h2 class="text-2xl font-semibold text-gray-800">About Us Restaurant</h2>
+                    <h1 class="text-4xl font-bold text-gray-900">News &amp; Articles From Tourm</h1>
+                </div>
+                <button class="flex items-center text-blue-600 border border-blue-600 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white transition Articles">
+                    See More Articles
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 Restaurant">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <figure class="imghvr-fade">
+                        <img alt="A serene beach with clear blue water and a dock with boats" class="w-full h-48 object-cover animate__animated animate__fadeIn animate__slower wow"" height="400" src="images/rayyu-maldives-xPsFXsbXJRg-unsplash.jpg" width="600"/>
+                    </figure>
+                    <div class="p-4">
+                        <p class="text-gray-500 text-sm mb-2">Jul 10, 2024 | 3 Min Read</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Enrich Your Mind Envision Your Future Education for Success</h3>
+                        <button class="flex items-center text-blue-600 border border-blue-600 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white transition">
+                            Read More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img alt="A family enjoying a day at the beach" class="w-full h-48 object-cover animate__animated animate__fadeIn animate__slower wow"" height="400" src="images/lawrence-crayton-Oj77q2yIjzI-unsplash.jpg" width="600"/>
+                    <div class="p-4">
+                        <p class="text-gray-500 text-sm mb-2">Jul 10, 2024 | 3 Min Read</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Exploring The Green Spaces Of Realar Residence Harmony with</h3>
+                        <button class="flex items-center text-blue-600 border border-blue-600 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white transition">
+                            Read More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img alt="A group of friends hiking in the mountains" class="w-full h-48 object-cover animate__animated animate__fadeIn animate__slower wow"" height="400" src="images/neom-LiDZooBvzt0-unsplash.jpg" width="600"/>
+                    <div class="p-4">
+                        <p class="text-gray-500 text-sm mb-2">Jul 09, 2024 | 3 Min Read</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Living sustainability: A day in the life at realar residence</h3>
+                        <button class="flex items-center text-blue-600 border border-blue-600 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white transition">
+                            Read More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  -->
+<div class=" cans">
+    <div class="row mb-5">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <h1 class="display-5 mt-4">Get Updated the latest Newsletter</h1>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="subscribe-section mt-5">
+                <input type="email" class="form-control rounded-pill input-email p-2" placeholder="Enter your Email">
+                <button class="btn click btn-dark text-white rounded-pill d-flex align-items-center p-2 ms-3">
+                    Subscribe Now
+                    <i class="fas fa-paper-plane ms-2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row mt-3">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="d-flex align-items-center mt-3">
+                <img src="images/logo.jpg" alt="Tourm logo" height="200px" width="200px">
+            </div>
+            <p class="text-muted">Rapidiously myocaridnate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+            <div class="d-flex">
+                <a href="#" class="text-teal me-3"><i class="fab fa-twitter text-primary"></i></a>
+                <a href="#" class="text-teal me-3"><i class="fab fa-facebook text-primary"></i></a>
+                <a href="#" class="text-teal me-3"><i class="fab fa-linkedin text-primary"></i></a>
+                <a href="#" class="text-teal me-3"><i class="fab fa-whatsapp text-primary"></i></a>
+                <a href="#" class="text-teal"><i class="fab fa-instagram text-primary"></i></a>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <h3 class="h5 fw-bold mt-2">Quick Links</h3>
+            <ul class="list-unstyled footer-links card-list p-2">
+                <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                <li><a href="#" class="text-muted text-decoration-none">Services</a></li>
+                <li><a href="#" class="text-muted text-decoration-none">Tour Guide</a></li>
+                <li><a href="#" class="text-muted text-decoration-none">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <h3 class="h5 fw-bold mt-2">Get In Touch</h3>
+            <ul class="list-unstyled" id="card-list">
+                <li class="d-flex align-items-center text-muted mb-2"><i class="fas fa-phone-alt me-2 text-teal"></i> +01 234 567 890 <br>+09 876 543 210</li>
+                <li class="d-flex align-items-center text-muted mb-2"><i class="fas fa-envelope me-2 text-teal"></i> mailinfo00@tourm.com <br>support24@tourm.com</li>
+                <li class="d-flex align-items-center text-muted"><i class="fas fa-map-marker-alt me-2 text-teal"></i> 789 Inner Lane, Holy park, California, USA</li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <h3 class="h5 fw-bol mt-2">Instagram Post</h3>
+            <div class="row g-2">
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/C-y73mHk2hYtDUkQnad4JIJu7g4mx-aYNv0yeWXGkAU.jpg" alt="Instagram post 1" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/wIs5m2h491AnFbMeeH8yVs9oJXO8yRQYF62j2hK0U-k.jpg" alt="Instagram post 2" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/yA3VSi6Rv0t_692UMpDHESI2jLpMhhGwLP42EQESTWk.jpg" alt="Instagram post 3" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/viMWiDTG5xIyzdMLahOkU-PC5A8YPFjhB33pGZckLRg.jpg" alt="Instagram post 4" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/dFMQQWrB8nVjpna_ZdkiXxllnYVu3iSQeumcZQbEMRc.jpg" alt="Instagram post 5" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/GIzw2kidcCfpGcbkIEVrVpByB3ILgTC6oftFpd9xOLk.jpg" alt="Instagram post 6" class="img-fluid animate__animated animate__fadeIn animate__slower wow">
+                </div>
+            </div>
+        </div>     
+    </div>   
+</div>
+<div class="row foot p-3">
+    <div class="col-sm-6 text-center">
+        <p class="text-white">© 2025 Tourm. All Rights Reserved.</p>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+        <div class="d-flex align-items-center ms-5">
+            <span class="text-white me-3">We Accept</span>
+            <img src="images/master.jpg" alt="MasterCard logo" width="30" height="25" class="me-2">
+            <img src="images/visa.png" alt="Visa logo" width="22" height="25" class="me-2">
+            <img src="images/paypal.webp" alt="PayPal logo" width="40" height="25" class="me-2">
+            <img src="images/apple.webp" alt="Apple Pay logo" width="40" height="25">
+        </div>
+    </div>    
+</div> 
+</body>
+</html>
